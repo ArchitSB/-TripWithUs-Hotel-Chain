@@ -224,7 +224,7 @@ app.get('/hotels/sort/pricing', (req, res) => {
   else{
     hotel.sort(sortedHightoLowPrice);
   }
-  res.json({ hotels: result });
+  res.json({ hotels: hotel });
 });
 
 function sortedHightoLowRating(hotel1,hotel2){
@@ -243,7 +243,7 @@ app.get('/hotels/sort/rating', (req,res)=>{
   else{
     hotel.sort(sortedHightoLowRating);
   }
-  res.json({ hotels: result });
+  res.json({ hotels: hotel });
 });
 
 function sortedMosttoLeastReviews(hotel1,hotel2){
@@ -262,7 +262,7 @@ app.get('/hotels/sort/reviews', (req,res)=>{
   else{
     hotel.sort(sortedMosttoLeastReviews);
   }
-  res.json({ hotels: result });
+  res.json({ hotels: hotel });
 });
 
 function filterByAmenity(hotel, amenity) {
@@ -296,7 +296,7 @@ app.get('/hotels/filter/category', (req, res) => {
 });
 
 app.get('/hotels', (req,res) => {
-  res.json({ hotels: result });
+  res.json({ hotels: hotels });
 });
 
 app.listen(port, () => {
