@@ -6,8 +6,7 @@ Introduction:
 
 TripWithUs is a new platform started by a bunch of folks in Bangalore who are trying to list some hotels from all over the world. Currently, they have started in a few categories and would expand it eventually.
 
-Copy/Paste the given array of hotels from the below link
-
+Data in json format: 
 https://gist.github.com/imrhlrvndrn/60f253e3e9101df1902f3e9f8637ad3d
 
 For now, they have hired you to create some APIs to display hotels based on the following filters:
