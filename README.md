@@ -1,3 +1,7 @@
+Check out Frontend integration of this project here: https://bd2-hotel-listing.vercel.app/
+
+Next Step: Add this Link in dialog Server url box on Vercel: https://trip-with-us-hotel-chain-blond.vercel.app/
+
 Introduction:
 
 TripWithUs is a new platform started by a bunch of folks in Bangalore who are trying to list some hotels from all over the world. Currently, they have started in a few categories and would expand it eventually.
